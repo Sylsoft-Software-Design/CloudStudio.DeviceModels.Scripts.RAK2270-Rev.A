@@ -26,7 +26,7 @@ function getEndpoints(deviceAddress, endpoints)
    endpoints.addEndpoint("1", "Tracking Sensor", endpointType.locationTracker);
    endpoints.addEndpoint("2", "Temperature", endpointType.temperatureSensor);
    var e = endpoints.addEndpoint("3", "Battery", endpointType.genericSensor);
-   e.variableTypeId = 1152;
+   e.variableTypeId = 1021;
 }
 
 function validateDeviceAddress(address, result)
